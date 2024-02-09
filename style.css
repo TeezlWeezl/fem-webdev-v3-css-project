@@ -13,6 +13,7 @@ html {
 body {
   font-family: "Open Sans";
   font-size: 1.6rem;
+  background: #efefef;
 }
 
 /* Page Styling */
@@ -48,6 +49,7 @@ body {
   background: #eee1d5;
   border-radius: 15px;
   padding: 15px;
+  box-shadow: 2px 2px 1px rgba(0,0,0,.2);
 }
 
 .box>.box-title {
@@ -118,4 +120,33 @@ body {
 
 .total {
   grid-area: total;
+}
+
+.input-group {
+  margin: 15px 0;
+  position: relative;
+}
+
+.user-input {
+  border: 2px #885a2d solid;
+  padding: 8px;
+  text-indent: 18px;
+  font-size: 1.8rem;
+  border-radius: 50px;
+  min-width: 100%;
+  background: rgba(0,0,0,0);
+}
+
+.user-input.short-input {
+  min-width: 50%;
+}
+
+.user-input-label {
+  position: absolute;
+  font-size: 1.1rem;
+  color: #885a2d;
+  top: -7px;
+  left: 20px;
+  background: #eee1d5;
+  padding: 0 4px;
 }
