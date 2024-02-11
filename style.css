@@ -49,7 +49,7 @@ body {
   background: #eee1d5;
   border-radius: 15px;
   padding: 15px;
-  box-shadow: 2px 2px 1px rgba(0,0,0,.2);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
 }
 
 .box>.box-title {
@@ -130,7 +130,7 @@ body {
   font-size: 1.8rem;
   border-radius: 50px;
   min-width: 100%;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
 }
 
 .user-input.short-input {
